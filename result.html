@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kết Quả Quiz 💘</title>
+  <link rel="stylesheet" href="/css/result.css">
+</head>
+<body>
+  <div class="result-container">
+    <h2>Kết quả của bé nè 🥰</h2>
+    <p id="score-text"></p>
+    <ul id="answer-list"></ul>
+    <button class="back-btn" onclick="back()">Chơi lại 💖</button>
+  </div>
+  <script src="js/result.js"></script>
+  
+  <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+  </script>
+  <script type="text/javascript">
+    (function(){
+        emailjs.init({
+          publicKey: "7mN64BiXtx7Gw7JmR",
+        });
+    })();
+  </script>
+  
+
+</body>
+</html>

@@ -1,0 +1,95 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background: linear-gradient(to top left, #ffeef8, #fff0f5);
+    color: #880e4f;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .result-container {
+    max-width: 600px;
+    margin: 60px auto;
+    background: #ffffffcc;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 2.2rem;
+    color: #ec407a;
+    margin-bottom: 20px;
+  }
+  
+  .result-score {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    color: #6a1b9a;
+  }
+  
+  .answer-list {
+    text-align: left;
+    margin: 0 auto;
+    max-width: 500px;
+  }
+  
+  .answer-list li {
+    margin: 10px 0;
+    padding: 10px 15px;
+    background-color: #ffe4ec;
+    border-left: 5px solid #f48fb1;
+    border-radius: 10px;
+    list-style: none;
+    font-size: 1rem;
+  }
+  
+  .back-btn {
+    margin-top: 25px;
+    padding: 12px 24px;
+    font-size: 1rem;
+    background-color: white;
+    border: 2px solid #ffb6c1;
+    border-radius: 20px;
+    color: #ec407a;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .back-btn:hover {
+    background-color: #ffe4ec;
+    transform: scale(1.05);
+  }
+  
+  @media (max-width: 600px) {
+    h1 {
+      font-size: 1.8rem;
+    }
+    .result-score {
+      font-size: 1.3rem;
+    }
+    .answer-list li {
+      font-size: 0.95rem;
+    }
+    .back-btn {
+      font-size: 0.95rem;
+    }
+  }
+/* Câu trả lời sai sẽ có màu đỏ */
+.answer-wrong {
+    color: red;
+    font-weight: bold;
+  }
+  
+  /* Câu trả lời đúng sẽ có màu xanh (hoặc màu khác tuỳ chọn) */
+  .answer-correct {
+    color: green;
+    font-weight: bold;
+  }
+  
+  /* Đáp án đúng sẽ hiển thị trong ngoặc đơn ở sau câu sai */
+  .correct-answer {
+    color: #4CAF50; /* Xanh lá */
+    font-style: italic;
+  }
+  
