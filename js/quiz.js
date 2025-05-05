@@ -1,59 +1,59 @@
 let questions = [
-  {//x
-    question: "Tụi mình gặp nhau lần đầu ở đâu?",
-    answers: ["Trường học", "Quán trà sữa", "Công viên", "Trên mạng"],
-    correct: 1
-  },
+  // {//x
+  //   question: "Tụi mình gặp nhau lần đầu ở đâu?",
+  //   answers: ["Trường học", "Quán trà sữa", "Công viên", "Trên mạng"],
+  //   correct: 1
+  // },
   {
     question: "Ai là người nhắn tin trước?",
     answers: ["Anh", "Em", "Cùng lúc", "Không nhớ"],
     correct: 1
   },
-  {//x
-    question: "Kỷ niệm nào vui nhất với tụi mình?",
-    answers: ["Đi chơi Đà Lạt", "Xem phim lần đầu", "Lễ Valentine", "Sinh nhật bạn"],
-    correct: 2
-  },
-  {//v
-    question: "Món ăn tụi mình hay ăn chung nhất là gì?",
-    answers: ["Lẩu", "Gà rán", "Bún bò", "Bánh tráng trộn"],
-    correct: 1
-  },
-  {//v
-    question: "Lần đầu nắm tay là ở đâu?",
-    answers: ["Công viên", "Rạp chiếu phim", "Trường học", "Trên xe buýt"],
-    correct: 0
-  },
-  {//v
-    question: "Bộ phim đầu tiên tụi mình xem cùng nhau là gì?",
-    answers: ["Your Name", "Avengers", "Titanic", "Em và Trịnh"],
-    correct: 3
-  },
+  // {//x
+  //   question: "Kỷ niệm nào vui nhất với tụi mình?",
+  //   answers: ["Đi chơi Đà Lạt", "Xem phim lần đầu", "Lễ Valentine", "Sinh nhật bạn"],
+  //   correct: 2
+  // },
+  // {//v
+  //   question: "Món ăn tụi mình hay ăn chung nhất là gì?",
+  //   answers: ["Lẩu", "Gà rán", "Bún bò", "Bánh tráng trộn"],
+  //   correct: 1
+  // },
+  // {//v
+  //   question: "Lần đầu nắm tay là ở đâu?",
+  //   answers: ["Công viên", "Rạp chiếu phim", "Trường học", "Trên xe buýt"],
+  //   correct: 0
+  // },
+  // {//v
+  //   question: "Bộ phim đầu tiên tụi mình xem cùng nhau là gì?",
+  //   answers: ["Your Name", "Avengers", "Titanic", "Em và Trịnh"],
+  //   correct: 3
+  // },
   {
     question: "Ai hay giận dỗi hơn?",
     answers: ["Anh", "Em", "Cả hai", "Không ai cả"],
     correct: 1
   },
-  {//v
-    question: "Ngày đặc biệt của tụi mình là ngày nào?",
-    answers: ["14/2", "1/6", "20/10", "Ngày yêu nhau"],
-    correct: 3
-  },
+  // {//v
+  //   question: "Ngày đặc biệt của tụi mình là ngày nào?",
+  //   answers: ["14/2", "1/6", "20/10", "Ngày yêu nhau"],
+  //   correct: 3
+  // },
   {
     question: "Lần đầu anh tặng quà cho em là dịp nào?",
     answers: ["Noel", "Valentine", "Sinh nhật", "Lễ 8/3"],
     correct: 2
   },
-  {//x
-    question: "Bài hát tụi mình hay nghe chung là gì?",
-    answers: ["3107", "Một nhà", "Yêu lại từ đầu", "Tháng tư là lời nói dối của em"],
-    correct: 0
-  },
-  {//x
-    question: "Điều bạn thích nhất ở mình là gì?",
-    answers: ["Nụ cười", "Giọng nói", "Chiều cao", "Tính cách"],
-    correct: 3
-  },
+  // {//x
+  //   question: "Bài hát tụi mình hay nghe chung là gì?",
+  //   answers: ["3107", "Một nhà", "Yêu lại từ đầu", "Tháng tư là lời nói dối của em"],
+  //   correct: 0
+  // },
+  // {//x
+  //   question: "Điều bạn thích nhất ở mình là gì?",
+  //   answers: ["Nụ cười", "Giọng nói", "Chiều cao", "Tính cách"],
+  //   correct: 3
+  // },
   {
     question: "Ai là người thường trễ hẹn hơn?",
     answers: ["Anh", "Em", "Cả hai", "Không ai cả"],
@@ -77,7 +77,7 @@ let questions = [
   {
     question: "Điều anh hay làm khi giận là gì?",
     answers: ["Im lặng", "Khóc", "Bỏ đi", "Làm mặt lạnh"],
-    correct: 0
+    correct: 3
   },
   {
     question: "Ai hay pha trò để dỗ người kia?",
@@ -89,15 +89,15 @@ let questions = [
     answers: ["Cuối tuần", "Ngày lễ", "Ngày thường", "Lúc rảnh"],
     correct: 3
   },
-  {
-    question: "Mình từng lỡ quên ngày gì quan trọng?",
-    answers: ["Sinh nhật bạn", "Ngày yêu nhau", "Valentine", "Không bao giờ quên"],
-    correct: 3
-  },
+  // {
+  //   question: "Mình từng lỡ quên ngày gì quan trọng?",
+  //   answers: ["Sinh nhật bạn", "Ngày yêu nhau", "Valentine", "Không bao giờ quên"],
+  //   correct: 3
+  // },
   {
     question: "Tụi mình thường gọi nhau bằng gì?",
     answers: ["Tên thật", "Biệt danh", "Anh/Em", "Ông/Bà"],
-    correct: 1
+    correct: 2
   }
 ];
 
